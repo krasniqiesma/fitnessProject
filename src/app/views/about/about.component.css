@@ -1,0 +1,87 @@
+main {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-img {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(30%);
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 110px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    background: url('../../../assets/counters.jpg') 50% 50%;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+
+}
+
+/* ABOUT US */
+
+h2 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: grey;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+
+/* GALLERY */
+
+.gallery{
+    background-color: #d8d8d8;
+}
+
+.pined {
+    overflow: hidden;
+}
+
+.pined-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.pined-list {
+    position: absolute;
+    left: 0;
+    display: flex;
+    gap: 60px;
+}
+
+li {
+    width: 600px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
